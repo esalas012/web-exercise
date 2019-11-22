@@ -1,0 +1,261 @@
+
+body{
+  height:100%;
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 20px;
+}
+
+#container{
+  width: 60%;
+  margin: 0 auto;
+  padding: 5px 100px;
+  background-color:white;
+}
+h1, p{
+  text-align:center;
+}
+#author-presents{
+  font-size: 0.8em;
+}
+hr{
+  background-color: blue;
+  width:80%;
+}
+h1{
+  font-size:1em;
+  font-family:"Lato", sans-serif;
+}
+h1 span{
+  color: blue;
+}
+h1 hr{
+  border: none;
+  margin:2px;
+  background-color:white;
+  height:1px;
+}
+.sign-up{
+  width: 90%;
+  margin: 10px auto;
+  text-align:center;
+  display: flex;
+  justify-content: center;
+}
+
+button{
+  display: block;
+  border:none;
+  text-align:center;
+  border-radius:5px;
+  padding: 10px 40px;
+  font-size: 0.8em;
+  background-color: #005282;
+  color:white;
+  margin:0 auto;
+}
+#cal-time{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+#calendar{
+  width: 30%;
+  background-color: #71a1be;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  color: white;
+}
+#timer{
+  width: 70%;
+  margin-left:10px;
+  background-color: #71a1be;
+  color: white;
+}
+
+#calendar img{
+  height: 65px;
+  width: 60px;
+}
+#calendar span{
+  font-size: 0.8em;
+}
+#pic-obj{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  height: 400px;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+#picture img{
+  margin-top:20px;
+  height: 220px;
+  width: 190px;
+}
+#picture{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  width:50%;
+  background-color: #05263a;
+  height: 100%;
+  color:white;
+}
+#picture p {
+  font-size: 0.7em;
+  opacity: 0.8;
+}
+#picture #name{
+  font-size:1.2em;
+  opacity: 1;
+}
+#objectives{
+  width:50%;
+  height: 100%;
+  background-color: lightgray;
+  font-size: 0.9em;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.info{
+  display:flex;
+  justify-content: flex-start;
+}
+.info img{
+  height: 40px;
+  width: auto;
+}
+.info p{
+  font-size:0.9em;
+  text-align:left;
+}
+#div-pink{
+  background-color:#f58c99;
+  margin: 0 auto;
+  color: white;
+  font-size: 0.8em;
+  display: flex;
+  justify-content: center;
+  padding-top: 8px;
+}
+#div-pink img{
+  height:30px;
+  width:28px;
+  margin-right:12px;
+}
+#div-blue{
+  background-color:#05263a;
+  margin: 0 auto;
+  color: white;
+  font-size: 0.8em;
+  padding:7px;
+}
+#div-blue p{
+  opacity: 0.8;
+}
+#triangles{
+  display: flex;
+  justify-content: center;
+}
+.triangle{
+  height: 20px;
+  width:50px;
+  margin: 0;
+}
+.right{
+  background: linear-gradient(to top right, #ffffff 50%, #05263a 50%);
+}
+.left{
+  background: linear-gradient(to top left, #ffffff 50%, #05263a 50%);
+}
+#sec-check{
+  margin-top: 0;
+}
+@media screen and (max-width: 1050px){
+  #container{
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 850px){
+  #container{
+    width: 70%;
+    padding: 0;
+  }
+
+  #cal-time{
+    display:block;
+    width: 100%;
+  }
+  #calendar{
+    width:100%;
+    padding-right:0;
+    padding-left:0;
+    padding-bottom:0;
+  }
+  #calendar span{
+    font-size:0.6em;
+  }
+  #timer{
+    width:100%;
+    margin: 0 auto;
+    height:100px;
+    padding-top:20px;
+    font-size: 0.8em;
+  }
+
+  #pic-obj{
+    flex-direction:column;
+    margin-top:0;
+    height:100%;
+    width:100%;
+  }
+  #picture{
+    width:100%;
+  }
+  #objectives{
+    width:100%;
+    padding:0;
+  }
+  #objectives p{
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  #objectives img{
+    margin-left: 10px;
+  }
+  #warning{
+    position:relative;
+    display:block;
+  }
+  .sign-up{
+    font-size:0.8em;
+  }
+  #div-pink img{
+    margin-left: 10px;
+  }
+  #div-pink p{
+    margin-right: 10px;
+  }
+  #div-pink{
+    font-size: 0.7em;
+  }
+
+
+
+}
+@media screen and (max-width: 700px){
+  #timer{
+    font-size: 0.6em;
+  }
+  #div-pink{
+    font-size: 0.5em;
+  }
+  #div-blue{
+    font-size: 0.5em;
+  }
+}
